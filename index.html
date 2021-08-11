@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<head>
+    <title>my homepage</title>
+    <link href="bootstrap-3.3.7-dist/css/bootstrap.css"rel="stylesheet">
+    <link href="bootstrap-3.3.7-dist/css/custom.css"rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="bootstrap-3.3.7-dist/js/myscript.js"></script>
+
+</head>
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu">
+                   menu
+                </button>
+                <a class="navbar-brand" href="index.html">HOME</a>
+            </div>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="nav navbar-nav navbar-right">
+                   <li><a href="signin.php">SIGN UP</a></li>
+                    <li><a href="login.php">LOG IN</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">ABOUT US</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">    
+        <div class="row">
+            <div class="col-sm-4">
+                <img class="img-responsive" src="image/pic1.jpg"/>
+            </div>
+            
+            <div class="col-sm-4">
+       <i><b><h1>CAR POOLING</h1></b></i>
+    <b><i><p>MAKES TRAVELLING EASY</p></i></b>
+    </div>
+    <div class="col-sm-4">
+                <img class="img-responsive" src="image/pic.jpg"/>
+            </div>    
+
+        </div>
+        <div class="row">
+            <div id="MyCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#MyCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#MyCarousel" data-slide-to="1"></li>
+                    <li data-target="#MyCarousel" data-slide-to="2"></li>
+                    <li data-target="#MyCarousel" data-slide-to="3"></li>
+                    <li data-target="#MyCarousel" data-slide-to="4"></li>
+                    </ol>
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img class="img-responsive" src="image/img1.jpg">
+                    </div>
+                     <div class="item">
+                        <img class="img-responsive" src="image/img2.jpg">
+                    </div>
+                    <div class="item">
+                        <img class="img-responsive" src="image/img3.jpg">
+                    </div>
+                    <div class="item">
+                        <img class="img-responsive" src="image/img4.jpg">
+                    </div>
+                    <div class="item">
+                        <img class="img-responsive" src="image/img5.jpg">
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#MyCarousel" data-slide="prev">
+                      <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#MyCarousel" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right"></span> 
+                </a>
+            </div>
+        </div>
+    <div class="col-sm-8">
+        <div class="row" id="p1"></div>
+    </div>
+    </div>
+    <br><br>
+    </div>
+
+
+<div class="container">
+<div class="row" id="bigCallout">
+    <div class="col-12">
+
+        <div class="alert alert-success alert-block fade in" id="successAlert">
+            <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+            <h4>SUCCESS!</h4>
+            <p>Click the 'x' in top right corner to close</p>
+        </div>
+
+    <div class="well">
+        <div class="page-header">
+            <h1>Find Your Ride</h1>
+        </div>
+        <p class="lead">Don't Be A FOOL, Ride In A CarPOOL</p>
+    
+    <div class="row">
+    <div class="col-lg-5">
+    <div class="input-group">
+        <span class="input-group-btn">
+            <button class="btn btn-default" type="button">Go!</button>
+        </span>
+        <input type="text" class="form-control" placeholder="Leaving from...">
+    </div>
+    </div>
+
+    <div class="col-lg-5">
+        <div class="input-group">
+            <input type="text" class="form-control" placeholder="Going to...">
+            <span class="input-group-btn">
+                <button class="btn btn-default" type="button">Go!</button>
+            </span>
+        </div>
+    </div>
+    <div class="col-lg-2">
+    <a class="btn btn-large btn-primary" id="alertMe">Find A Ride</a>
+</div>
+    
+    </div>
+
+</div>
+    </div>
+</div>
+<hr>
+</div>
+
+<div class="container">
+<div class="row" id="moreInfo">
+<div class="col-lg-12">
+<h4><span class="glyphicon glyphicon-map-marker"></span>Location <small> View Your Location</small></h4>
+
+<div class="map">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3570.241898700902!2d80.23071131428311!3d26.51234358359482!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399c3701c4a8be71%3A0x3afbe880abc38436!2sIndian+Institute+of+Technology+Kanpur!5e0!3m2!1sen!2sin!4v1524584061112" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+
+<hr>
+<p>...</p>
+</div>
+</div>
+</div>
+    
+    <footer>
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-sm-2">
+                <h5>Copyright &copy; 2018</h5>
+                </div>
+
+                <div class="col-sm-4">
+                <h4>About Us</h4>
+                <p>...</p>
+                </div>
+
+                <div class="col-sm-2">
+                <h4>Navigation</h4>
+                <ul class="list-unstyled">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+                </div>
+
+                <div class="col-sm-2">
+                    <h4>Follow Us</h4>
+                <ul class="list-unstyled">
+                    <li><a href="https://www.twitter.com">Twitter</a></li>
+                    <li><a href="https://www.facebook.com">Facebook</a></li>
+                    <li><a href="https://www.instagram.com">Instagram</a></li>
+                    <li><a href="https://plus.google.com">Google Plus</a></li>
+                </ul>
+                </div>
+
+                <div class="col-sm-2">
+                <h5>Coded with <span class="glyphicon glyphicon-heart"></span> By Prachi and Prachi Yadav</h5>
+                </div>
+
+            </div>
+        </div>
+
+
+
+    </footer>
+</body>
+</html>
