@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<head>
+    <title>my homepage</title>
+    <link href="bootstrap-3.3.7-dist/css/bootstrap.css"rel="stylesheet">
+    <link href="bootstrap-3.3.7-dist/css/custom3.css" rel="stylesheet">
+    <script src="scripts/jquery-3.2.1.min.js"></script>
+    <script src="bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu">
+                   menu
+                </button>
+                <a class="navbar-brand"href="index.html">HOME</a>
+            </div>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="signin.html">SIGN UP</a></li>
+                    <li><a href="login.html">LOG IN</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">ABOUT US</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid bg">
+        <div class="row">
+            <div class="col-md-4 col-sm-4 col-xs-12"></div>
+            <div class="col-md-4 col-sm-4 col-xs-12">
+
+<form class="form-container">
+    <h1>LOG IN</h1>
+    <form method="POST" action="connection.php">
+  <div class="form-group">
+    <label for="exampleInputEmail1">UserID</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+      <label>Don't have an account?<a href="signin.html">Sign Up</a>
+      </label>
+  <button type="submit" class="btn btn-success btn-block">LOG IN</button>
+</form>
+
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-12"></div>
+        </div>
+    </div>
+
+ <footer>
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-sm-2">
+                <h5>Copyright &copy; 2018</h5>
+                </div>
+
+                <div class="col-sm-4">
+                <h4>About Us</h4>
+                <p>...</p>
+                </div>
+
+                <div class="col-sm-2">
+                <h4>Navigation</h4>
+                <ul class="list-unstyled">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+                </div>
+
+                <div class="col-sm-2">
+                    <h4>Follow Us</h4>
+                <ul class="list-unstyled">
+                    <li><a href="https://www.twitter.com">Twitter</a></li>
+                    <li><a href="https://www.facebook.com">Facebook</a></li>
+                     <li><a href="https://www.instagram.com">Instagram</a></li>
+                    <li><a href="https://plus.google.com">Google Plus</a></li>
+                </ul>
+                </div>
+
+                <div class="col-sm-2">
+                <h5>Coded with <span class="glyphicon glyphicon-heart"></span> By Prachi and Prachi Yadav</h5>
+                </div>
+
+            </div>
+        </div>
+
+
+
+    </footer>
+
+</body>
+</html>
